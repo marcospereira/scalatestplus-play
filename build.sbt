@@ -65,7 +65,7 @@ lazy val docs = project
   .settings(
     libraryDependencies ++= Seq(
       "com.typesafe.play" %% "play-cache" % PlayVersion % Test,
-      "org.mockito" % "mockito-core" % "1.9.5" % Test
+      "org.mockito" % "mockito-core" % "2.7.19" % Test
     ),
 
     PlayDocsKeys.scalaManualSourceDirectories := (baseDirectory.value / "manual" / "working" / "scalaGuide" ** "code").get,
